@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.category-card__category-name-text {
+  @apply after:transform after:transition-transform after:ease-linear after:duration-200 after:border-[0.05rem] after:content-[''] after:border-solid after:border-[#252627] after:origin-left after:scale-x-0 hover:after:scale-x-[10%] lg:hover:after:scale-x-110 after:block
+}
+
+/* .category-card {
+  animation: categoryCard 0.3s alternate;
+}
+
+@keyframes categoryCard {
+  0% {
+    height: 240px;
+  }
+
+  100% {
+    height: fit-content;
+  }
+} */
